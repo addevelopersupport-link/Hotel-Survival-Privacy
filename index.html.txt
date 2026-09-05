@@ -1,108 +1,152 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Политика конфиденциальности — Hotel Survival</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Survival — Privacy Policy</title>
     <style>
+        * { box-sizing: border-box; }
         body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #222;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #080808;
+            color: #e9e9e9;
+            line-height: 1.7;
         }
         .container {
-            background: #ffffff;
-            padding: 30px;
+            width: min(900px, calc(100% - 32px));
+            margin: 50px auto;
+        }
+        .card {
+            background: #111;
+            border: 1px solid #292929;
+            border-radius: 18px;
+            padding: 38px;
+            box-shadow: 0 12px 40px rgba(0,0,0,.45);
+        }
+        h1 {
+            margin: 0 0 8px;
+            color: #fff;
+            font-size: 38px;
+            letter-spacing: 1px;
+        }
+        h2 {
+            margin-top: 34px;
+            color: #fff;
+            font-size: 23px;
+        }
+        p, li { color: #cfcfcf; }
+        .subtitle {
+            color: #888;
+            margin-bottom: 30px;
+        }
+        .notice {
+            background: #181818;
+            border-left: 4px solid #fff;
+            padding: 14px 18px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            color: #d8d8d8;
         }
-        h1, h2 {
-            color: #111;
-            margin-top: 25px;
+        a { color: #fff; }
+        footer {
+            text-align: center;
+            color: #666;
+            margin: 25px 0;
+            font-size: 14px;
         }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        hr {
-            border: 0;
-            height: 1px;
-            background: #eee;
-            margin: 30px 0;
+        @media (max-width: 600px) {
+            .container { margin: 20px auto; }
+            .card { padding: 24px 20px; }
+            h1 { font-size: 30px; }
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>Политика конфиденциальности</h1>
-    <p>Данная политика конфиденциальности распространяется на мобильное приложение <strong>Hotel Survival</strong>, а также на все связанные с ним сервисы, предоставляемые компанией <strong>AD Developer</strong> (совместно именуемые «Приложение»). Компания AD Developer далее именуется «Поставщик услуг».</p>
+    <div class="card">
+        <h1>HOTEL SURVIVAL</h1>
+        <div class="subtitle">Privacy Policy</div>
 
-    <h2>Сбор и использование информации</h2>
-    <p>Приложение собирает информацию, когда вы его загружаете и используете. Эта информация может включать в себя, например, следующие данные:</p>
-    <ul>
-        <li>IP-адрес вашего устройства;</li>
-        <li>Страницы приложения, которые вы посещаете, время и дата вашего посещения, время, проведенное на этих страницах;</li>
-        <li>Время, затраченное на работу с приложением;</li>
-        <li>Используемая вами мобильная операционная система.</li>
-    </ul>
+        <p><strong>Last updated:</strong> 6 September 2026</p>
 
-    <h2>Файлы cookie и технологии отслеживания</h2>
-    <p>Приложение или его сторонние SDK могут использовать файлы cookie, SDK, пиксели и аналогичные технологии для обеспечения функциональности, аналитики или предоставления услуг. В случаях, предусмотренных действующим законодательством, поставщик услуг получит согласие перед использованием некритичных технологий отслеживания.</p>
+        <div class="notice">
+            This Privacy Policy explains how information may be handled when you use the mobile game
+            <strong>Hotel Survival</strong>.
+        </div>
 
-    <h2>Ваши права</h2>
-    <p>Вы можете запросить доступ к своим персональным данным, хранящимся у Поставщика услуг, их исправление или удаление. Для осуществления этих прав или для отзыва согласия свяжитесь с Поставщиком услуг по адресу: <a href="mailto:addeveloper.support@gmail.com">addeveloper.support@gmail.com</a>.</p>
+        <h2>1. Information We Collect</h2>
+        <p>
+            Hotel Survival does not intentionally collect personally identifiable information such as
+            your name, home address, phone number, or password.
+        </p>
+        <p>
+            The game may use third-party services that automatically process limited technical
+            information, such as device type, operating system, application version, approximate
+            region, crash information, and advertising identifiers, where applicable.
+        </p>
 
-    <h2>Ваши права на неприкосновенность частной жизни в Калифорнии (CCPA/CPRA)</h2>
-    <p>Если вы являетесь жителем Калифорнии, вы имеете право знать, какая личная информация собирается, право на удаление личной информации, право отказаться от продажи или передачи личной информации, а также право на защиту от дискриминации при осуществлении этих прав. Для осуществления своих прав в соответствии с CCPA/CPRA свяжитесь с поставщиком услуг по адресу: <a href="mailto:addeveloper.support@gmail.com">addeveloper.support@gmail.com</a>.</p>
+        <h2>2. Advertising</h2>
+        <p>
+            Hotel Survival may display advertisements provided by third-party advertising services.
+            These services may use advertising identifiers and similar technologies to provide,
+            measure, and improve advertisements.
+        </p>
+        <p>
+            If advertising services are enabled in the published version of the game, their own
+            privacy policies also apply to the processing they perform.
+        </p>
 
-    <h2>Доступ третьих лиц</h2>
-    <p>Только агрегированные, анонимизированные данные периодически передаются внешним сервисам для оказания помощи Поставщику услуг в улучшении Приложения и предоставляемых им услуг.</p>
-    <p>Обратите внимание, что Приложение использует сторонние сервисы, имеющие собственную Политику конфиденциальности. Ниже приведены ссылки на политики конфиденциальности сторонних поставщиков услуг, используемых Приложением:</p>
-    <ul>
-        <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
-        <li><a href="https://unity3d.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unity</a></li>
-    </ul>
+        <h2>3. Analytics and Crash Reporting</h2>
+        <p>
+            We may use analytics or crash-reporting services to understand game performance,
+            diagnose technical problems, and improve the game. Such services may collect technical
+            information about the device and application.
+        </p>
 
-    <h2>Международная передача данных (International Data Transfers)</h2>
-    <p>Поставщик услуг или его сторонние поставщики услуг могут передавать персональные данные в страны за пределами страны вашего проживания. При необходимости применяются соответствующие механизмы защиты (Стандартные договорные условия ЕС, решения об адекватности или ваше согласие).</p>
+        <h2>4. Children's Privacy</h2>
+        <p>
+            Hotel Survival is not intended to knowingly collect personal information from children.
+            We do not intentionally request personal information from users through the game.
+        </p>
 
-    <h2>Права на отказ (Opt-Out Rights)</h2>
-    <p>Вы можете прекратить сбор информации Приложением, просто удалив его со своего мобильного устройства.</p>
+        <h2>5. Data Security</h2>
+        <p>
+            We take reasonable measures to protect information processed in connection with the
+            game. However, no method of electronic storage or transmission is completely secure.
+        </p>
 
-    <h2>Политика хранения данных (Data Retention Policy)</h2>
-    <p>Поставщик услуг хранит предоставленные пользователем данные в течение всего периода использования Приложения плюс 12 месяцев после этого. Автоматически собранные данные хранятся до 24 месяцев.</p>
+        <h2>6. Third-Party Services</h2>
+        <p>
+            The game may rely on third-party services for advertising, analytics, crash reporting,
+            online features, or other technical functionality. Those providers may process
+            information according to their own privacy policies.
+        </p>
 
-    <h2>Дети</h2>
-    <p>Приложение не предназначено для детей младше 16 лет. Поставщик услуг сознательно не запрашивает и не собирает персональные данные детей. Если вы узнали, что ваш ребенок предоставил нам личную информацию, свяжитесь с нами по адресу <a href="mailto:addeveloper.support@gmail.com">addeveloper.support@gmail.com</a> для ее удаления.</p>
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>
+            This Privacy Policy may be updated from time to time. Any changes will be published on
+            this page with an updated date.
+        </p>
 
-    <h2>Безопасность</h2>
-    <p>Поставщик услуг предоставляет физические, электронные и процедурные меры защиты для обеспечения безопасности обрабатываемой информации.</p>
+        <h2>8. Contact</h2>
+        <p>
+            If you have questions about this Privacy Policy, contact the developer:
+        </p>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:a.d.developer.support@gmail.com">a.d.developer.support@gmail.com</a>
+        </p>
 
-    <h2>Уведомление о нарушении безопасности данных</h2>
-    <p>В случае утечки персональных данных Поставщик услуг уведомит вас в соответствии с применимыми правовыми требованиями.</p>
+        <h2>9. Google Play</h2>
+        <p>
+            This Privacy Policy is intended to provide information about the privacy practices
+            associated with Hotel Survival when distributed through Google Play.
+        </p>
+    </div>
 
-    <h2>Изменения политики</h2>
-    <p>Настоящая политика конфиденциальности может время от времени обновляться. Поставщик услуг уведомит вас о существенных изменениях, опубликовав новую версию.</p>
-    <p>Настоящая политика конфиденциальности вступает в силу с <strong>05.09.2026</strong>.</p>
-
-    <h2>Связаться с нами</h2>
-    <p>Если у вас возникли вопросы относительно конфиденциальности при использовании Приложения, пожалуйста, свяжитесь с Поставщиком услуг по электронной почте: <a href="mailto:addeveloper.support@gmail.com">addeveloper.support@gmail.com</a>.</p>
-    
-    <hr>
-    <p style="font-size: 0.85em; color: #777;">Данная страница политики конфиденциальности была создана с помощью <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a>.</p>
+    <footer>
+        © 2026 Hotel Survival. All rights reserved.
+    </footer>
 </div>
 </body>
 </html>
